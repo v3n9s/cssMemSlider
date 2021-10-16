@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Verdana";
+}
+
+body{
+  background-color: #282c2e;
+}
+
+.wrapper{
+  margin: 0px auto;
+  padding: 20px 2vw;
+  max-width: 1024px;
+  width: 100%;
+  background-color: var(--color-theme-primary);
+  color: #ffffff;
+}
