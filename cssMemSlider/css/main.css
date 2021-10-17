@@ -17,3 +17,9 @@ body{
   background-color: var(--color-theme-primary);
   color: #ffffff;
 }
+
+@media (max-width: 1024px){
+  .wrapper{
+    padding: 20px 2vw;
+  }
+}

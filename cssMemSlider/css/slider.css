@@ -120,3 +120,32 @@ input:checked ~ .slider-controls__customized-radio{
   background-color: var(--color-theme-primary);
   border-color: #ffffff;
 }
+
+@media (max-width: 769px){
+  .slider{
+    gap: 10px;
+  }
+
+  .slider__image{
+    height: 300px;
+  }
+
+  .slider__bottom{
+    flex-direction: column-reverse;
+    gap: 5px;
+  }
+
+  .slider-controls{
+    align-self: center;
+  }
+
+  .slider-controls__box{
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider-controls__customized-radio{
+    width: 15px;
+    height: 15px;
+  }
+}
