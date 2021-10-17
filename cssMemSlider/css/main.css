@@ -11,7 +11,7 @@ body{
 
 .wrapper{
   margin: 0px auto;
-  padding: 20px 2vw;
+  padding: 20px 35px;
   max-width: 1024px;
   width: 100%;
   background-color: var(--color-theme-primary);
