@@ -67,16 +67,18 @@
 @keyframes showText{
   from{
     opacity: 0;
+    left: 50px;
   }
   to{
     opacity: 1;
+    left: 0px;
   }
 }
 
 .slider__text{
   position: absolute;
-  transform: scale(0);
-  transition: transform 0.5s ease;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .slider-controls{
@@ -121,7 +123,7 @@
 #slide-bullet-4:checked ~ .wrapper #text-id-4,
 #slide-bullet-5:checked ~ .wrapper #text-id-5{
   position: relative;
-  transform: scale(1);
+  animation: showText 0.5s ease forwards;
 }
 
 #slide-bullet-0:checked ~ .wrapper #image-id-0,
